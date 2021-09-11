@@ -24,8 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     iDefaultHomeGoals = 3;
     iDefaultAwayGoals = 2;
     iDefaultRange1 = 8;
-    iDefaultRange2 = 250;
-    iDefaultRange3 = 3000;
+    iDefaultRange2 = 150;
+    iDefaultRange3 = 1000;
 
     var dm = (document.getElementById) ? 1 : 0; // is it w3c
     var ie = (document.all) ? 1:0; //is it explorer
@@ -167,7 +167,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     //new Array("Fulham       ", "Ful",  2000, 0, 0, 0, 0, 0, 0),
     //new Array("Hull City    ", "Hul", 10000, 0, 0, 0, 0, 0, 0),
     new Array("Leeds        ", "Lee",   300, 0, 0, 0, 0, 0, 0),
-    new Array("Leicester    ", "Lei",    75, 0, 0, 0, 0, 0, 0),
+    new Array("Leicester    ", "Lei",    80, 0, 0, 0, 0, 0, 0),
     new Array("Liverpool    ", "Liv",     4, 0, 0, 0, 0, 0, 0),
     new Array("Man City     ", "MnC",     1, 0, 0, 0, 0, 0, 0),
     new Array("Man Utd      ", "MnU",     5, 0, 0, 0, 0, 0, 0),

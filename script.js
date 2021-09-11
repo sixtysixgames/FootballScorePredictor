@@ -301,7 +301,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 sOutput += ("<table border=\"1\" cellspacing=\"0\"><tr><td>&nbsp;</td>");
                 for(away=0; away<ateams.length; away++){
                     if(away % 3 == 2){sclass="shaded";} else {sclass="";}
-                    sOutput += ("<th width=\"25\" class=\"" + sclass + "\"><small>" + ateams[away][iColInits] + "</small></th>")
+                    sOutput += ("<th width=\"25\" class=\"" + sclass + "\">" + ateams[away][iColInits] + "</th>")
                 }
                 sOutput += ("</tr>\n");
             }
@@ -309,7 +309,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 // alternate row shading
                 if(season==seasons){
                     if(home % 3 == 2){sclass="shaded";} else {sclass="";}
-                    sOutput += ("<tr><th align=\"left\" class=\"" + sclass + "\"><small>" + ateams[home][iColName] + "</small></th>");
+                    sOutput += ("<tr><th align=\"left\" class=\"" + sclass + "\">" + ateams[home][iColName] + "</th>");
                 }
                 for(var away = 0; away < ateams.length; away++){
                     // alternate column shading
@@ -512,13 +512,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                         ateams[away][iColAgainst] += hs;
 
                         if(season == seasons){
-                            sOutput += ("<td align=\"center\" class=\"" + sclass + "\"><small>" + hs + "-" + as + "</small></td>" );
+                            sOutput += ("<td align=\"center\" class=\"" + sclass + "\">" + hs + "-" + as + "</td>" );
                         }
                         aresults[hs][as] += 1;
 
                     } else {
                         if(season == seasons){
-                            sOutput += ("<td align=\"center\" class=\"" + sclass + "\"><small>-</small></td>" );
+                            sOutput += ("<td align=\"center\" class=\"" + sclass + "\">-</td>" );
                         }
                     } // end if
                 } // next away

@@ -23,9 +23,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     iDefaultMinGoals = 2;
     iDefaultHomeGoals = 3;
     iDefaultAwayGoals = 2;
-    iDefaultRange1 = 8;
-    iDefaultRange2 = 150;
-    iDefaultRange3 = 1000;
+    iDefaultRange1 = 8; // potential champios
+    iDefaultRange2 = 150; // potential europe
+    iDefaultRange3 = 500; // mid-table
 
     var dm = (document.getElementById) ? 1 : 0; // is it w3c
     var ie = (document.all) ? 1:0; //is it explorer

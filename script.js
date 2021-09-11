@@ -610,9 +610,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     }
 
     //calculate();
-
         var sSetup = "<form name=\"frmSetup\" id=\"frmSetup\">";
-
 
         sSetup += "<table>";
 
@@ -692,11 +690,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         sSetup += "<input type=\"radio\" id=\"remrange3\" name=\"remrange\" value=\"3\" checked=\"true\" /></td>";
         sSetup += "<td>Remove a goal per three ranges for the team with the higher odds.</td>";
         sSetup += "</tr>";
-
-
         sSetup += "</table>";
+        
         //document.write(sSetup);
-        document.getElementById("setup").innerHTML += sSetup;
+        document.getElementById("setup").innerHTML += sSetup + "</form>";
 
         sSetup = "";
         sSetup += "<table width=\"100%\">\n";
@@ -725,5 +722,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         sSetup += "</tr>\n";
         sSetup += "</table>\n";
         //document.write(sSetup);
-        document.getElementById("setup").innerHTML += sSetup + "</form>" ;
+        document.getElementById("setup").innerHTML += sSetup ;
 

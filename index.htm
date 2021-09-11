@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="/style.css">
         <link rel="shortcut icon" href="/favicon.ico">
         <script type="text/javascript" src="/script.js"></script>
-        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="script.js" defer="defer"></script>
         <style>
     td {vertical-align: top;}
     td.shaded { background: #dddddd; }
@@ -21,10 +21,8 @@
         <div class="mainbody">
             <div class="content">
                 <h1>Football Score Predictor</h1>
-                <div name="setup" id="setup">
-                 
-                </div>
-<div name="predictions" id="predictions"></div>
+                <div id="setup"></div>
+<div id="predictions"></div>
 
 <script type="text/javascript">
     <!--
@@ -33,7 +31,7 @@
 </script>
 
 <p>
-* The initial odds for each team are loosely based on the best odds found on
+* The initial odds for each team are loosely based on the odds found on
 <a href="https://www.oddschecker.com/football/english/premier-league/winner">Oddschecker</a>
 at the time of writing this thing.
 

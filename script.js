@@ -611,7 +611,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
     //calculate();
 
-        sSetup = "";
+        var sSetup = "<form name=\"frmSetup\" id=\"frmSetup\">";
+
 
         sSetup += "<table>";
 
@@ -695,7 +696,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
         sSetup += "</table>";
         //document.write(sSetup);
-        document.getElementById("setup").innerHTML = sSetup;
+        document.getElementById("setup").innerHTML += sSetup;
 
         sSetup = "";
         sSetup += "<table width=\"100%\">\n";
@@ -724,5 +725,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         sSetup += "</tr>\n";
         sSetup += "</table>\n";
         //document.write(sSetup);
-        document.getElementById("setup").innerHTML += sSetup;
+        document.getElementById("setup").innerHTML += sSetup + "</form>" ;
 
